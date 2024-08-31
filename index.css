@@ -179,6 +179,7 @@
 
 .contact-button {
   cursor: pointer;
+  border: none;
   position: absolute;
   top: 350px;
   left: 1px;
@@ -197,7 +198,15 @@
   font-size: var(--headings-bold-16-size);
   color: var(--color-linen);
   font-family: var(--font-microsoft-sans-serif);
+  transition: 0.5s;
+  border: #d2d2d2 solid;
 }
+
+.contact-button:hover{
+  box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.25);
+
+}
+
 .aboutus-section,
 .service-para {
   position: absolute;
